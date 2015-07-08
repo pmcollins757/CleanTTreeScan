@@ -1,2 +1,2 @@
 # CleanTTreeScan
-Python script to clean text output from scan of ROOT tree.
+Python script to clean text output from scan of a ROOT tree. This was one of my earlier python scripts. Working with CERN's ROOT package I found that the only way to get information from a ROOT tree into a text format that could be shared with researchers that didn't use ROOT was through the Scan function, but the output was not in a format that was easy to deal with. Each column of data was separated by asterisks, there were column labels at the top of the file, and a row of asterisks at the bottom of the file. I wanted to be able to share simple files that were just columns of data, so I made this python script to clean up the text that was output by ROOT.
